@@ -1,0 +1,47 @@
+QUIZ
+
+1.If you are recreating your on-premises data center environment with Azure, which product will provide your networking stack? ---->Azure virtual network
+
+Yes, Azure Virtual Networks provide the networking backbone for your cloud environment.
+
+2.Which Azure products can you use to launch a web application? 
+
+You can launch a web app or website using the Web App service, an Azure VM (Linux or Windows), or via the Azure Container Service. "but we can't launch using cosmo DB"
+
+3.Which service in Azure acts as a store of user credentials? ---> Azure Active Directory
+
+Correct. Azure Active Directory is responsible for holding user credentials.
+
+4.___ is the ability to quickly expand or decrease resources (such as computer processing, memory, and storage) without having to having to be concerned about capacity planning and engineering for peak usage. ---->Elasticity
+
+The elasticity of a VM or a service is its ability to increase or decrease in capability as workload demand changes.
+
+5.A system that can suffer the failure of a component and continue to function is called? ---Fault Tolerance
+
+Correct. A fault tolerance system can suffer the failure of one or more components and continue to function as designed.
+
+6.A system that is designed to be accessible as much of the time as possible, is called what? ---> Highly -available
+
+Correct. A highly available system is designed to accessible as much of the time as possible
+
+7.Complete this statement: "Cloud computing is the delivery of computing services. Typically, you only pay for cloud services you use, helping you lower your operating costs, run your ___ more efficiently and scale as your business needs change." ----> Infrastructure
+
+Simply put, cloud computing is the delivery of computing services – including servers, storage, databases, networking, software, analytics and intelligence – over the Internet (“the cloud”) to offer faster innovation, flexible resources and economies of scale. Typically, you only pay for cloud services you use, helping you lower your operating costs, run your infrastructure more efficiently and scale as your business needs change. 
+
+8.What are the core components that make up a Virtual Machine? (Choose all that apply)
+
+Storage, operating system, Network cards, Processor and RAM "but not Database"
+
+9.What are Azure's four levels of scope for applying management settings. Select the four available scope levels.
+
+Correct. Azure's four levels of scope for applying management settings are: Management Groups, Subscriptions, Resource Groups, and Resources. 
+
+10.Which Azure product is responsible for providing general purpose computing power in your cloud environment? --->Virtual Machine
+
+Yes, Azure VMs are responsible for providing your computing power for your workloads.
+
+11.What are the primary reasons companies use Cloud Services?
+
+Fault tolerance and high availability are advantages of cloud computing.
+Disaster recovery is a major advantage of cloud computing.
+Scalability and elasticity are major advantages of cloud computing.

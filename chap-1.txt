@@ -1,0 +1,38 @@
+08/09/2023-afternoon
+
+Azure PowerShell ---> Azure PowerShell is based on Microsoft's PowerShell scripting language. It is primarily used on Windows environments, although it can also run on macOS and Linux with some limitations.
+it is well-suited for complex scripting and automation tasks, thanks to the rich scripting capabilities of PowerShell. It provides access to a wide range of .NET libraries and modules.
+
+Azure CLI ---> Azure CLI is designed to be cross-platform and is implemented in Python. It can run on Windows, macOS, and various Linux distributions.
+While Azure CLI can also be used for scripting and automation, it may require more complex scripting to achieve certain tasks compared to Azure PowerShell.
+
+
+1.ARM templates are a way to describe which resource group you want to create, delete, manage, alter, or do any number of actions to.
+2.common syntax - defined language for all ARM templates making it easier to formalize and learn.
+3.idempotent - Run the same templates once, twice, or as many times as you like. it will have the same outcome.
+
+Benefits--->
+1.idempotent
+2.source control --> keep track of all changes to the ARM templates
+3.Reuse --> use a combinaion of multiple partial ARM templates to achieve glory - or at least complex templates.
+4.Declaration --> specify what you want, not how it is done.
+5.No human errors --> Automation means human don't repeat the same mistakes
+
+
+AZURE ADVISOR
+
+the advisor is always ready to get you a bit more secure, save money, or increase the infrastructure reliability.
+
+
+-----> SUMMARY <------
+1.Azure portal --> intuitive, visual one stop shop for managing all your azure resources
+2.Azure CLI --> a text-only way to manage azure resources. A stable,structured way to manage your azure environment.
+3.Azure powershell --> fully supported by azure with modules and cmdlets.A tool that fits into many different work flows.
+4.Azure cloud shell --> A combination of the portal, the CLI, and powershell. works from anywhere using a browser or mobile app.Many included tools and features, including storage.
+5.Azure mobile apps --> use the android and ios mobile apps to be altered and respond to emergerncies, or just perform general maintenance.
+6.ARM templates --> is a way to automate management of resources and avoid human errors.
+
+
+What is a PowerShell cmdlet?
+
+A lightweight command that is used in the PowerShell environment to perform an action

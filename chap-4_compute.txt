@@ -1,0 +1,59 @@
+Virtual machines --> 
+Features:-
+
+	(a)Infrastructure-as-a-service(IaaS) : manage everything except the hardware.this includes networking components.
+	(b)Tools : use the azure portak to manage large number of vms and even hybrid clouds.
+	(c)Compliance : use azure blueprints to make your vns comply with company guidline.
+	(d)Recommendations : azure will recommend improvements to ensure better security, higher availability and great performance.
+	(e)Choice : choose amount of RAM, number of CPUs, windows or linux
+
+
+Scale Set ---> scale set are identical VMs.They can be activated or deactivated as needed.
+a baseline VM for the scale set ensures application stability. a baseline VM is what you copy to make up the scale set VMs.
+as resource usage increases, more VMs are activated to take the load.
+you only pay for the VM, storage, and networking resources you use. nothing additional for scale sets.
+
+
+VM and Scale sets are IaaS parts of azure.
+
+APP SERVICES 
+
+1.Web Apps ---> website and online applications hosted on azure's managed platform.
+.runs on both windows and linux platforms
+.supports a lot of languages, such as .net,java,php,node.js,python,ruby.
+.azure integration for easier deployment
+.auto-scaling and load balancing
+
+Web apps for containers ---> Deploy and run containerized application in azure.
+.a container is completely self contained.
+.all dependencies are shipped inside the container.
+.deploy anywhere with a consistent experiene.
+
+API Apps --> Expose and connect your data backend
+.application programming interface
+.no graphical component.no user interface.
+.connect other applications programatically
+.use a range of programming language
+
+
+App service is an easy way to host and manage web application.
+...App services are a PaaS offering on azure.
+...Web apps are used to host web sites and web applications.
+...Web apps for containers can host your existing container images.
+...API apps can host your data backend services.
+
+Kubernet Services ---> Kubernetes is an open source container orchestration system for automating application deployment,scaling and management
+open source - public code base and community involvement in the product.
+orchestration - keeps track of lots of parts of a system.makes sure containers are configured correctly to work together.
+automatic application deployment -  kubernetes will deploy mire images of containers as needed.
+
+Azure Container Registry (ACR) - Keep track of current valid container images.
+			       - Manges files and artifacts for containers.
+			       - Feeds container images to ACI and AKS
+			       - use azure identity and security features.
+
+
+
+Virtual machines on Azure abstract away the physical hardware layer, so you don't need to worry about maintaining physical hardware. Microsoft handles this instead.
+
+

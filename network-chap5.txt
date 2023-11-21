@@ -1,0 +1,80 @@
+Virtual Network(VNet) : a virtual network enables many types of azure resources,such as azure virtual machines or VMs to securely communicate with each other, the internet and on-premises networks.
+
+
+
+why we are seperating networks(Subnett) ????
+it makes easier to keep track of which resources go together.--> resource groups
+address allocation is more efficient --> Address allocation
+you can use individual subnets using a network security --> subnet security
+
+... a Vnet belongs to single region. every resource on the vnet must be in the same region
+....a Vnet belongs to just one subscription but a subscription can have multiple Vnets.
+
+VNet Peering 
+------------
+this feature lets you connect 2 or more virtual networks in azure.traffic between virtual machines in a peered network uses the private microsoft backbone network and never passes through the public internet.
+benefits :-
+. Low latency , high bandwidth
+. Link seperate networks - Resources in seperate virtual networks can communicate with each other
+. Data transfer - transfer data easily between subscription and deployment models in seperate regions.
+
+
+
+
+a Virtual Network is a fundamental part of azure and connects all your resources and services.
+. An address space is the range of IP address available to assign to resources.
+. A subnet is a smaller network, which is part of your VNet.use these for security and logical division of resources.subnets can also be secured individually.
+.A VNet is in a single region and single subscription
+.VNet in the cloud can scale, have high availability and isolation.
+
+
+
+Example : -
+the VM that you use for processing some of the old data is getting overloaded at times , you added a second VM but how would you manage the traffic flow and use both ???????
+Adding a Load Balancer in front of the VMs to capture the traffic before it reaches them means you can manage where the traffic goes.
+
+Load Balancer distributes new inbound flows that arrive on the load Balancer's frontend to backend pool instances, according to rules and health probes.
+inbound flows --> traffic from the internet or local Vnet
+Any inboud traffic will be received by the load balancer.
+Fontend --> the access point for the load balancer.
+
+
+
+
+
+
+VPN Gateway
+------------
+when you want to securely communicate with azure resources and your on-premises network,what do you do ?????
+
+Virtual network gateway is composed of two or more virtual machines that are deployed to a specific subnet you create which is called the gateway subnet.
+
+the vms that are located in the gateway subnet are created when you create a virual network gateway.
+
+
+VPN gateway is a specific type of virtual network gateway that is used to send encrypted traffic between an azure virtual network and an on-premises location over the public intenet.
+
+site-to-site connection
+Azure VNet --->VPN gateway
+	|
+     Tunnel
+	|
+     on-premises
+VNET
+-----
+..a VPN gateway is specific VNet gateway.it consists two or more dedicated VMs.
+..VNet gateway + "vpn" becomes VPN gateway
+..sends encrypted data between azure and on premises network
+..azure gateway subnet,  secure tunnel and on-premises gatewat makes up a VPN gateway scenario.
+
+
+..An application gateway is the higher level gateway load balancer.
+..it works on the http request of the traffic,instead of the IP address and port.
+..Traffic from specific web address can go to a specific machine. such as images, videos
+..is a fit for most other azure services
+..supports autoscaling,end-to-end encryption, zone redundancy and multi site hosting.
+
+
+
+
+

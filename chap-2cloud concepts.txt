@@ -1,0 +1,49 @@
+cloud concepts
+----------------
+the language of cloud computing
+the economy of cloud computing 
+cloud service models
+azure marketplace
+cloud architecture models
+------------------------
+cloud computing is the on-demand availability of computer system resources. split into three main categories
+1.compute  2.networking  3.storage
+
+Terms
+--------------------------------------
+1.High avalability ---> which is core to the cloud, including azure.it is also the cornerstone of the other cloud language items.
+
+    Traditional                                  Cloud 
+ ------------------                          -----------------
+1.you own the hardware                      1.you don't own the hardware
+2.you have physical access                  2.add more servers with a click
+3.you can't 'just add servers'              3.if hardware fails, replace it instantly
+                                            4.use clusters to ensure high availability
+
+high availability is depends on number of virtual machines set up to essentially cover each other, incase one die.which is an identical grouping of virtual machines.
+
+
+
+2.Reliability --->a.k.a Fault tolerance /disaster recovery
+resilience --> the ability of a system to recover from failures and to continue to function.
+. where high availability doesn't guarantee 0 downtime, a reliable system does.
+.when something goes wrong that causes an azure service or resource to fail they can be mitigated by death with by azure itself, usually automatically.
+
+Reliability can be achieved through a combination of 2 strategies
+(a) Deploy resources in multiple locations 
+	-global-scale computing
+	-Protects against regional failure/disaster
+(b) No single point of failure
+	-Resources in multiple locations 
+	-if one computer goes down, others pick up the load
+
+
+3.Scalability ---> is the process of adding more resources on an as-needed basis.
+scale out -adding more resources 
+scale out -removing resources
+
+.automatically adjust resources to meet demand
+	example : increase number of vms to handle peak traffic
+Horizontal scaling == adding additional VMs / containers [sometimes also known as scaling out]
+Verical scaling == increasing power (eg. CPU/RAM) of existing VMs [some times also refers to scalling up]
+

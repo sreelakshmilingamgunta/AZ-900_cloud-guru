@@ -1,0 +1,12 @@
+1.Cloud concepts
+2.Azure Architecture
+3.Compute
+4.Networking
+5.Storage
+6.Database
+7.Authentication and Authorization
+8.Solutions on Azure
+9.Security
+10.Privacy,Compliance and Trust
+11.Pricing
+12.Support

@@ -1,0 +1,11 @@
+Availability zone : -
+	a)physical location - physical location with in a region
+	b)independent - Each zone has its own power,coolibg,and networking.
+	c)Zones - Each region has a minimum of three zones
+	used for protecting data from failures.....!
+Azure Region - a set of data centers that are close enough to each other that is doesnt matter which data center your data is in.latency is the time it takes for data to travel.
+
+Resource Group - all resources belongs to a resource group.it isn't a resource, but helps structure your azure architecture.
+resource group is where all resources live.
+ARM - all interactions with azure resources go through the ARM.it is the main azure architecture component for creating ,updating and manipulating resources.
+
