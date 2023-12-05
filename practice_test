@@ -36,6 +36,7 @@ Actions performed by azure portal - create new resources
 
 Azure Resource Manager(ARM) - management layer accepts requests from any Azure tool or API and enables you to create, update, and delete resources in an Azure account
       -can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent
+ARM is the deployment and management service for Azure.
 
 Azure Arc - simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
 
@@ -48,5 +49,27 @@ Azure Monitor is a platform for collecting, analyzing, visualizing, and alerting
 Data Policy - Which feature in the Microsoft Purview governance portal should you use to manage access to data sources and datasets
 
 In a region pair, a region is paired with another region in the same - Geography
+
+Subscription - Azure generate separate billing reports and invoices by default
+
+VPN Gateway - connecting on-premises datacenter to an azure virtual network
+
+Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
+
+Azure blob storage ue cases - storing data for backups and restore
+                            - serving images or documents directly to a browser
+
+Hot - Highest storage cost and the fastest access time for reading
+
+Scope - To which object or level is an Azure role-based access control (RBAC) role applied
+
+Conditional Access - Microsoft Entra feature can you use to ensure that users can only access Microsoft Office 365 applications from approved client applications
+What can you use to ensure that users authenticate by using multi-factor authentication (MFA) when they attempt to sign in from a specific location
+
+Microsoft Entra Connect - u use to sync identities from an on-premises Active Directory Domain Services (AD DS) domain to Microsoft Entra
+
+
+
+
 
 
