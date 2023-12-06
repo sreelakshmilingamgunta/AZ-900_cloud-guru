@@ -11,6 +11,15 @@ IaaS - customer responsible for managing Operating System.
 PaaS - You need to focus on application development rather than configuration and management of servers.
 Azure SQL data base - PaaS
 microsoft 365 - SaaS
+Azure Cosmos DB - PaaS
+Azure Backup - PaaS
+Azure file - IaaS
+DNS server that runs on virtual machine - PaaS
+Microsoft Intune - SaaS
+
+
+Resource group can contain resources from multiple regions
+
 
 factors affecting azure costs
   -resource location
