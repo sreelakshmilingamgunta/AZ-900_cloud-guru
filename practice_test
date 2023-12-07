@@ -17,19 +17,30 @@ Azure file - IaaS
 DNS server that runs on virtual machine - PaaS
 Microsoft Intune - SaaS
 
+Characteristics of ARM - Idempotency, Declarative, Source control
 
 Resource group can contain resources from multiple regions
 
+High availability - If one resource on Azure dies unexpectedly, another resource will almost instantly take over the workload
 
 factors affecting azure costs
   -resource location
   -resource usage
+OpEx is an ongoing cost for running a business. CapEx is the cost of acquiring and maintaining assets.
 
 characteristics of private cloud deployment model
   -Hardware must be purchased
   -the company has the complete control over physical resources and security
 
+common application types hosted on azre app services are - web apps -API apps - Web apps for containers
+
+Fully Managed platform - Servers, network, storage, and more are all managed by Azure. You focus on your business value and logic.
+
 High availability in a public cloud environment dependent on - SLA [ service level agreement]
+
+Reliable - Ensuring services and applications remain available in the event of a failure
+
+Predictability - Knowing that your application will always perform as expected regardless of user load
 
 Elasticity - automatically scalling
 
@@ -61,7 +72,9 @@ In a region pair, a region is paired with another region in the same - Geography
 
 Subscription - Azure generate separate billing reports and invoices by default
 
-VPN Gateway - connecting on-premises datacenter to an azure virtual network
+VPN Gateway - connecting on-premises datacenter to an azure virtual network [mostly in hybrid cloud model]
+
+Azure dedicated hosts run on their own dedicated hardware inside the Azure datacenter and only your chosen VMs will run on it.
 
 Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
 
@@ -77,8 +90,9 @@ What can you use to ensure that users authenticate by using multi-factor authent
 
 Microsoft Entra Connect - u use to sync identities from an on-premises Active Directory Domain Services (AD DS) domain to Microsoft Entra
 
+Distributed denial-of-service attack - An attack where lots of computers target a single server or website with the aim of making it stop
 
-
+Microsoft Sentinel will collate, aggregate, and analyze data from multiple Azure services to detect any unusual behavior or patterns
 
 
 
