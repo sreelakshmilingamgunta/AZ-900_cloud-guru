@@ -94,5 +94,17 @@ ARM is the deployment and management service for Azure.
 
 -> Microsoft Sentinel will collate, aggregate, and analyze data from multiple Azure services to detect any unusual behavior or patterns
 
+-> Azure App Services - Azure App Service enables you to build and host web apps, mobile back-ends, and RESTful APIs in the programming language of your choice without managing infrastructure.
 
+-> Application Insights is an extensible Application Performance Management (APM) service for web developers on multiple platforms that you can use to monitor web applications. While this provides incredibly powerful insights, it isn't used to host the web app itself.
+
+-> Conditional Access policies are a component of Azure AD to allow authentication based on conditions (i.e., if-then statements) that must be met to either allow or deny access.
+
+-> The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect Microsoft's cloud services and the customers that use it.
+
+-> Azure Data Lake makes it easy to store data of any size, shape, and speed, and do a variety of processing and analytics tasks across platforms and languages.
+
+-> Access Control (IAM) can be used to prevent the creation of Azure resources, but improper use could prevent required system access from other administrators
+
+-> 
 
