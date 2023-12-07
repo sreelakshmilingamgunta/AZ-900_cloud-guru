@@ -1,98 +1,98 @@
-characteristics of consumption-based mode:
-  -no upfront costs
-  -the ability to stop paying for resources that no longer useed
+-> characteristics of consumption-based mode:
+         -no upfront costs
+         -the ability to stop paying for resources that no longer useed
   
-agility means that you can deploy and configure cloud-based resources quickly as app requirements chnage.
+-> agility means that you can deploy and configure cloud-based resources quickly as app requirements chnage.
 
-disaster recovery - What are cloud-based backup services, data replication, and geo-distribution features
+-> disaster recovery - What are cloud-based backup services, data replication, and geo-distribution features
 
-IaaS - customer responsible for managing Operating System.
+-> IaaS - customer responsible for managing Operating System.
 
-PaaS - You need to focus on application development rather than configuration and management of servers.
-Azure SQL data base - PaaS
-microsoft 365 - SaaS
-Azure Cosmos DB - PaaS
-Azure Backup - PaaS
-Azure file - IaaS
-DNS server that runs on virtual machine - PaaS
-Microsoft Intune - SaaS
+-> PaaS - You need to focus on application development rather than configuration and management of servers.
+            - Azure SQL data base - PaaS
+            - microsoft 365 - SaaS
+            - Azure Cosmos DB - PaaS
+            - Azure Backup - PaaS
+            - Azure file - IaaS
+            - DNS server that runs on virtual machine - PaaS
+            - Microsoft Intune - SaaS
 
-Characteristics of ARM - Idempotency, Declarative, Source control
+-> Characteristics of ARM - Idempotency, Declarative, Source control
 
-Resource group can contain resources from multiple regions
+-> Resource group can contain resources from multiple regions
 
-High availability - If one resource on Azure dies unexpectedly, another resource will almost instantly take over the workload
+-> High availability - If one resource on Azure dies unexpectedly, another resource will almost instantly take over the workload
 
-factors affecting azure costs
-  -resource location
-  -resource usage
-OpEx is an ongoing cost for running a business. CapEx is the cost of acquiring and maintaining assets.
+-> factors affecting azure costs
+      - resource location
+      - resource usage
 
-characteristics of private cloud deployment model
-  -Hardware must be purchased
-  -the company has the complete control over physical resources and security
+-> OpEx is an ongoing cost for running a business. CapEx is the cost of acquiring and maintaining assets.
 
-common application types hosted on azre app services are - web apps -API apps - Web apps for containers
+-> characteristics of private cloud deployment model
+      -Hardware must be purchased
+      -the company has the complete control over physical resources and security
 
-Fully Managed platform - Servers, network, storage, and more are all managed by Azure. You focus on your business value and logic.
+-> common application types hosted on azre app services are - web apps -API apps - Web apps for containers
 
-High availability in a public cloud environment dependent on - SLA [ service level agreement]
+-> Fully Managed platform - Servers, network, storage, and more are all managed by Azure. You focus on your business value and logic.
 
-Reliable - Ensuring services and applications remain available in the event of a failure
+-> High availability in a public cloud environment dependent on - SLA [ service level agreement]
 
-Predictability - Knowing that your application will always perform as expected regardless of user load
+-> Reliable - Ensuring services and applications remain available in the event of a failure
 
-Elasticity - automatically scalling
+-> Predictability - Knowing that your application will always perform as expected regardless of user load
 
-Geo-Location allows you to deploy applications to regional datacenters around the world
+-> Elasticity - automatically scalling
 
-Resource Tags - associating costs with different environments
+-> Geo-Location allows you to deploy applications to regional datacenters around the world
+
+-> Resource Tags - associating costs with different environments
               - categorizing costs by department
 
-What can you use to restrict the deployment of a virtual machine to a specific location? - Azure Policy
+-> What can you use to restrict the deployment of a virtual machine to a specific location? - Azure Policy
 
-Actions performed by azure portal - create new resources
+-> Actions performed by azure portal - create new resources
                                   - create microsoft entra
 
-Azure Resource Manager(ARM) - management layer accepts requests from any Azure tool or API and enables you to create, update, and delete resources in an Azure account
+-> Azure Resource Manager(ARM) - management layer accepts requests from any Azure tool or API and enables you to create, update, and delete resources in an Azure account
       -can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent
 ARM is the deployment and management service for Azure.
 
-Azure Arc - simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
+-> Azure Arc - simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
 
-Azure Advisor - recommendations to reduce the cost of Azure resources
+-> Azure Advisor - recommendations to reduce the cost of Azure resources
 
-Apllication Insights - use to automatically detect performance anomalies for web apps
+-> Apllication Insights - use to automatically detect performance anomalies for web apps
 
-Azure Monitor is a platform for collecting, analyzing, visualizing, and alerting based on metrics. Azure Monitor can log data from an entire Azure and on-premises environment.
+-> Azure Monitor is a platform for collecting, analyzing, visualizing, and alerting based on metrics. Azure Monitor can log data from an entire Azure and on-premises environment.
 
-Data Policy - Which feature in the Microsoft Purview governance portal should you use to manage access to data sources and datasets
+-> Data Policy - Which feature in the Microsoft Purview governance portal should you use to manage access to data sources and datasets
 
-In a region pair, a region is paired with another region in the same - Geography
+-> In a region pair, a region is paired with another region in the same - Geography
 
-Subscription - Azure generate separate billing reports and invoices by default
+-> Subscription - Azure generate separate billing reports and invoices by default
 
-VPN Gateway - connecting on-premises datacenter to an azure virtual network [mostly in hybrid cloud model]
+-> VPN Gateway - connecting on-premises datacenter to an azure virtual network [mostly in hybrid cloud model]
 
-Azure dedicated hosts run on their own dedicated hardware inside the Azure datacenter and only your chosen VMs will run on it.
+-> Azure dedicated hosts run on their own dedicated hardware inside the Azure datacenter and only your chosen VMs will run on it.
 
-Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
+-> Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
 
-Azure blob storage ue cases - storing data for backups and restore
+-> Azure blob storage ue cases - storing data for backups and restore
                             - serving images or documents directly to a browser
 
-Hot - Highest storage cost and the fastest access time for reading
+-> Hot - Highest storage cost and the fastest access time for reading
 
-Scope - To which object or level is an Azure role-based access control (RBAC) role applied
+-> Scope - To which object or level is an Azure role-based access control (RBAC) role applied
 
-Conditional Access - Microsoft Entra feature can you use to ensure that users can only access Microsoft Office 365 applications from approved client applications
-What can you use to ensure that users authenticate by using multi-factor authentication (MFA) when they attempt to sign in from a specific location
+-> Conditional Access - Microsoft Entra feature can you use to ensure that users can only access Microsoft Office 365 applications from approved client applications
 
-Microsoft Entra Connect - u use to sync identities from an on-premises Active Directory Domain Services (AD DS) domain to Microsoft Entra
+-> Microsoft Entra Connect - u use to sync identities from an on-premises Active Directory Domain Services (AD DS) domain to Microsoft Entra
 
-Distributed denial-of-service attack - An attack where lots of computers target a single server or website with the aim of making it stop
+-> Distributed denial-of-service attack - An attack where lots of computers target a single server or website with the aim of making it stop
 
-Microsoft Sentinel will collate, aggregate, and analyze data from multiple Azure services to detect any unusual behavior or patterns
+-> Microsoft Sentinel will collate, aggregate, and analyze data from multiple Azure services to detect any unusual behavior or patterns
 
 
 
