@@ -1,4 +1,4 @@
--> characteristics of consumption-based mode:
+-> characteristics of consumption-based model:
          -no upfront costs
          -the ability to stop paying for resources that no longer useed
   
@@ -53,7 +53,7 @@
 -> What can you use to restrict the deployment of a virtual machine to a specific location? - Azure Policy
 
 -> Actions performed by azure portal - create new resources
-                                  - create microsoft entra
+                                     - create microsoft entra
 
 -> Azure Resource Manager(ARM) - management layer accepts requests from any Azure tool or API and enables you to create, update, and delete resources in an Azure account
       -can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent
@@ -80,7 +80,7 @@ ARM is the deployment and management service for Azure.
 -> Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
 
 -> Azure blob storage ue cases - storing data for backups and restore
-                            - serving images or documents directly to a browser
+                               - serving images or documents directly to a browser
 
 -> Hot - Highest storage cost and the fastest access time for reading
 
