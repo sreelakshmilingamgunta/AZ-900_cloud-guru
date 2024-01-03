@@ -63,6 +63,8 @@ ARM is the deployment and management service for Azure.
 
 -> Azure Advisor - recommendations to reduce the cost of Azure resources
 
+-> Azure Policy - enforces standards, but it does not prevent deletion of resources.
+
 -> Apllication Insights - use to automatically detect performance anomalies for web apps
 
 -> Azure Monitor is a platform for collecting, analyzing, visualizing, and alerting based on metrics. Azure Monitor can log data from an entire Azure and on-premises environment.
