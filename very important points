@@ -108,5 +108,7 @@ ARM is the deployment and management service for Azure.
 
 -> Access Control (IAM) can be used to prevent the creation of Azure resources, but improper use could prevent required system access from other administrators
 
--> 
+-> Monitoring Alerts - Alert rule and Action Group
+-> conditional access policy - Access decisions
+
 
