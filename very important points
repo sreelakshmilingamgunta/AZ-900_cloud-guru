@@ -111,4 +111,7 @@ ARM is the deployment and management service for Azure.
 -> Monitoring Alerts - Alert rule and Action Group
 -> conditional access policy - Access decisions
 
-
+-> ExpressRoute connection uses a dedicated leased connection that does not use the public internet
+-> Premium page blobs support the fastest possible performance for page blob storage types (e.g., IaaS disks).
+-> Virtual Network - To completely isolate the virtual machine you would use a separate Virtual Network.
+-> 
