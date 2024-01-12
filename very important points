@@ -114,4 +114,14 @@ ARM is the deployment and management service for Azure.
 -> ExpressRoute connection uses a dedicated leased connection that does not use the public internet
 -> Premium page blobs support the fastest possible performance for page blob storage types (e.g., IaaS disks).
 -> Virtual Network - To completely isolate the virtual machine you would use a separate Virtual Network.
--> 
+
+-> Azure Dev Test Labs - is a service for easily creating, using and managing IAAS virtual machines and PAAS environments in labs.
+Labs offers pre configured basis and artifacts for creating VM's. ARM templates are for creating environments like web apps and sharepoint farms
+
+-> Azure Key vault - you are required to make sure that during deployment, the administrative credentials are encrypted.
+for securely storing and acccessing secrets. API keys, passwords, certificates and cryptographic keys.
+
+-> Azure cosmos DB - fully managed NO SQL database for modern app development
+->Azure API management service - way to create and manage customer APIs for existing backend sevices.
+
+
