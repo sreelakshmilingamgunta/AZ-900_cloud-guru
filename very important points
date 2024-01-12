@@ -7,14 +7,14 @@
 -> disaster recovery - What are cloud-based backup services, data replication, and geo-distribution features
 
 -> IaaS - customer responsible for managing Operating System.
-
+                  - Azure file - IaaS
 -> PaaS - You need to focus on application development rather than configuration and management of servers.
             - Azure SQL data base - PaaS
-            - microsoft 365 - SaaS
+            - DNS server that runs on virtual machine - PaaS
             - Azure Cosmos DB - PaaS
             - Azure Backup - PaaS
-            - Azure file - IaaS
-            - DNS server that runs on virtual machine - PaaS
+
+            - microsoft 365 - SaaS
             - Microsoft Intune - SaaS
 
 -> Characteristics of ARM - Idempotency, Declarative, Source control
