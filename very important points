@@ -121,7 +121,7 @@ Labs offers pre configured basis and artifacts for creating VM's. ARM templates 
 -> Azure Key vault - you are required to make sure that during deployment, the administrative credentials are encrypted.
 for securely storing and acccessing secrets. API keys, passwords, certificates and cryptographic keys.
 
--> Azure cosmos DB - fully managed NO SQL database for modern app development
+-> Azure cosmos DB - fully m anaged NO SQL database for modern app development
 ->Azure API management service - way to create and manage customer APIs for existing backend sevices.
 
 
