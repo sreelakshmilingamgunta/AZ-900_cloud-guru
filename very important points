@@ -63,14 +63,24 @@
 
 
 
+
+
 ->  NSGs are associated with Azure virtual machines (VMs), network interfaces, and subnets, allowing you to filter network traffic to and from these resources based on rules that you define
 
 -> Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
 
 -> ExpressRoute connection uses a dedicated leased connection that does not use the public internet
+   Express route lets you extend your on-premises networks into the microsoft cloud over a private connection with the help of connectivity provider.
+
 -> Premium page blobs support the fastest possible performance for page blob storage types (e.g., IaaS disks).
 -> Virtual Network - To completely isolate the virtual machine you would use a separate Virtual Network.
 -> VPN Gateway - connecting on-premises datacenter to an azure virtual network [mostly in hybrid cloud model]
+-> Firewall - could grant or deny access based on the originating IP address
+-> site-to-site VPN - used to set the communication between an on-premises VPN device and an azure VPn gate way through an encrypted tunnel over the internet.
+-> point-to-site(P2S) VPN - lets you create a secure connection to your virtual network from ana individual client computer
+-> 
+
+
 
 
 
@@ -134,16 +144,12 @@ for securely storing and acccessing secrets. API keys, passwords, certificates a
 
 -> Hot - Highest storage cost and the fastest access time for reading
 -> SSO - enables a user to remember only one ID or one password to access multiple applications.
+
+-> Azure Machine Learning - is a development platform for coding machine learning
+-> Azure Synapse Analytics - is a data analytics platfoorm that combines data integration, enterprise data warehousing, and big data analytics.
+-> Azure Database for PostgreSQL - is a relational database service based on the open-source postgres database engine. it is not used to build a database warehouse.
+-> Edge computing - allows customers to run VMs, Containers and data services at edge locations.
 -> 
-
-
-
-
-
-
-
-
-
 
 
 
