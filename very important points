@@ -26,11 +26,13 @@
    Microsoft.Blueprint/blueprints/artifacts/write ---> creates artifacts in blue prints defenition
    Microsoft.Blueprint/blueprints/versions/write ---> publish a blueprint
 -> which built in role can manage blueprints definition, but not assign them ---> Blueprint Contributor
+
 -> Possible ways to  create azure blueprints - Azure Portal, Azure powershell, Azure CLI, Azure Rest API, Azure Template.
 
 -> Resource group can contain resources from multiple regions
 
 -> High availability - If one resource on Azure dies unexpectedly, another resource will almost instantly take over the workload
+-> High availability in a public cloud environment dependent on - SLA [ service level agreement]
 
 -> agility means that you can deploy and configure cloud-based resources quickly as app requirements change.
 
@@ -45,8 +47,6 @@
 -> common application types hosted on azre app services are - web apps -API apps - Web apps for containers
 
 -> Fully Managed platform - Servers, network, storage, and more are all managed by Azure. You focus on your business value and logic.
-
--> High availability in a public cloud environment dependent on - SLA [ service level agreement]
 
 -> Geo-Location allows you to deploy applications to regional datacenters around the world
 
