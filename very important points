@@ -1,10 +1,10 @@
 -> characteristics of consumption-based model:
          -no upfront costs
          -the ability to stop paying for resources that no longer useed
-  
--> agility means that you can deploy and configure cloud-based resources quickly as app requirements change.
-
--> disaster recovery - What are cloud-based backup services, data replication, and geo-distribution features
+-> OpEx is an ongoing cost for running a business. CapEx is the cost of acquiring and maintaining assets.
+-> characteristics of private cloud deployment model
+      -Hardware must be purchased
+      -the company has the complete control over physical resources and security
 
 -> IaaS - customer responsible for managing Operating System.
                   - Azure file - IaaS
@@ -18,26 +18,21 @@
             - Microsoft Intune - SaaS
 
 -> Characteristics of ARM - Idempotency, Declarative, Source control
+-> Azure Blue Prints - ARM Template
+                     - Azure Role Assignment
+                     - Azure Resource Group
+                     - Azure Policy Assignments
+-> Microsoft.Blueprint/blueprints/write ---> create a blueprint defenition
+   Microsoft.Blueprint/blueprints/artifacts/write ---> creates artifacts in blue prints defenition
+   Microsoft.Blueprint/blueprints/versions/write ---> publish a blueprint
+-> which built in role can manage blueprints definition, but not assign them ---> Blueprint Contributor
+-> Possible ways to  create azure blueprints - Azure Portal, Azure powershell, Azure CLI, Azure Rest API, Azure Template.
 
 -> Resource group can contain resources from multiple regions
 
 -> High availability - If one resource on Azure dies unexpectedly, another resource will almost instantly take over the workload
 
--> factors affecting azure costs
-      - resource location
-      - resource usage
-
--> OpEx is an ongoing cost for running a business. CapEx is the cost of acquiring and maintaining assets.
-
--> characteristics of private cloud deployment model
-      -Hardware must be purchased
-      -the company has the complete control over physical resources and security
-
--> common application types hosted on azre app services are - web apps -API apps - Web apps for containers
-
--> Fully Managed platform - Servers, network, storage, and more are all managed by Azure. You focus on your business value and logic.
-
--> High availability in a public cloud environment dependent on - SLA [ service level agreement]
+-> agility means that you can deploy and configure cloud-based resources quickly as app requirements change.
 
 -> Reliable - Ensuring services and applications remain available in the event of a failure
 
@@ -45,16 +40,45 @@
 
 -> Elasticity - automatically scalling
 
--> Geo-Location allows you to deploy applications to regional datacenters around the world
+-> disaster recovery - What are cloud-based backup services, data replication, and geo-distribution features
 
--> Resource Tags - associating costs with different environments
-              - categorizing costs by department
+-> common application types hosted on azre app services are - web apps -API apps - Web apps for containers
+
+-> Fully Managed platform - Servers, network, storage, and more are all managed by Azure. You focus on your business value and logic.
+
+-> High availability in a public cloud environment dependent on - SLA [ service level agreement]
+
+-> Geo-Location allows you to deploy applications to regional datacenters around the world
 
 -> What can you use to restrict the deployment of a virtual machine to a specific location? - Azure Policy
 
 -> Actions performed by azure portal - create new resources
                                      - create microsoft entra
 
+-> In a region pair, a region is paired with another region in the same - Geography
+
+-> Subscription - Azure generate separate billing reports and invoices by default
+
+-> Azure dedicated hosts run on their own dedicated hardware inside the Azure datacenter and only your chosen VMs will run on it.
+
+
+
+->  NSGs are associated with Azure virtual machines (VMs), network interfaces, and subnets, allowing you to filter network traffic to and from these resources based on rules that you define
+
+-> Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
+
+-> ExpressRoute connection uses a dedicated leased connection that does not use the public internet
+-> Premium page blobs support the fastest possible performance for page blob storage types (e.g., IaaS disks).
+-> Virtual Network - To completely isolate the virtual machine you would use a separate Virtual Network.
+-> VPN Gateway - connecting on-premises datacenter to an azure virtual network [mostly in hybrid cloud model]
+
+
+
+-> factors affecting azure costs
+      - resource location
+      - resource usage
+-> Resource Tags - associating costs with different environments
+              - categorizing costs by department
 -> Azure Resource Manager(ARM) - management layer accepts requests from any Azure tool or API and enables you to create, update, and delete resources in an Azure account
       -can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent
 ARM is the deployment and management service for Azure.
@@ -71,26 +95,24 @@ ARM is the deployment and management service for Azure.
 
 -> Data Policy - Which feature in the Microsoft Purview governance portal should you use to manage access to data sources and datasets
 
--> In a region pair, a region is paired with another region in the same - Geography
-
--> Subscription - Azure generate separate billing reports and invoices by default
-
--> VPN Gateway - connecting on-premises datacenter to an azure virtual network [mostly in hybrid cloud model]
-
--> Azure dedicated hosts run on their own dedicated hardware inside the Azure datacenter and only your chosen VMs will run on it.
-
--> Peering - You need to allow resources on two different Azure virtual networks to communicate with each other.
-
--> Azure blob storage ue cases - storing data for backups and restore
-                               - serving images or documents directly to a browser
-
--> Hot - Highest storage cost and the fastest access time for reading
-
 -> Scope - To which object or level is an Azure role-based access control (RBAC) role applied
 
 -> Conditional Access - Microsoft Entra feature can you use to ensure that users can only access Microsoft Office 365 applications from approved client applications
 
 -> Microsoft Entra Connect - u use to sync identities from an on-premises Active Directory Domain Services (AD DS) domain to Microsoft Entra
+
+-> Azure Dev Test Labs - is a service for easily creating, using and managing IAAS virtual machines and PAAS environments in labs.
+Labs offers pre configured basis and artifacts for creating VM's. ARM templates are for creating environments like web apps and sharepoint farms
+
+-> Azure Key vault - you are required to make sure that during deployment, the administrative credentials are encrypted.
+for securely storing and acccessing secrets. API keys, passwords, certificates and cryptographic keys.
+
+-> Azure cosmos DB - fully m anaged NO SQL database for modern app development
+->Azure API management service - way to create and manage customer APIs for existing backend sevices.
+-> Access Control (IAM) can be used to prevent the creation of Azure resources, but improper use could prevent required system access from other administrators
+
+-> Monitoring Alerts - Alert rule and Action Group
+-> conditional access policy - Access decisions
 
 -> Distributed denial-of-service attack - An attack where lots of computers target a single server or website with the aim of making it stop
 
@@ -105,23 +127,20 @@ ARM is the deployment and management service for Azure.
 -> The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect Microsoft's cloud services and the customers that use it.
 
 -> Azure Data Lake makes it easy to store data of any size, shape, and speed, and do a variety of processing and analytics tasks across platforms and languages.
+-> Azure blob storage ue cases - storing data for backups and restore
+                               - serving images or documents directly to a browser
 
--> Access Control (IAM) can be used to prevent the creation of Azure resources, but improper use could prevent required system access from other administrators
+-> Hot - Highest storage cost and the fastest access time for reading
 
--> Monitoring Alerts - Alert rule and Action Group
--> conditional access policy - Access decisions
 
--> ExpressRoute connection uses a dedicated leased connection that does not use the public internet
--> Premium page blobs support the fastest possible performance for page blob storage types (e.g., IaaS disks).
--> Virtual Network - To completely isolate the virtual machine you would use a separate Virtual Network.
 
--> Azure Dev Test Labs - is a service for easily creating, using and managing IAAS virtual machines and PAAS environments in labs.
-Labs offers pre configured basis and artifacts for creating VM's. ARM templates are for creating environments like web apps and sharepoint farms
 
--> Azure Key vault - you are required to make sure that during deployment, the administrative credentials are encrypted.
-for securely storing and acccessing secrets. API keys, passwords, certificates and cryptographic keys.
 
--> Azure cosmos DB - fully m anaged NO SQL database for modern app development
-->Azure API management service - way to create and manage customer APIs for existing backend sevices.
+
+
+
+
+
+
 
 
