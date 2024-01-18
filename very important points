@@ -7,15 +7,17 @@
       -the company has the complete control over physical resources and security
 
 -> IaaS - customer responsible for managing Operating System.
-                  - Azure file - IaaS
+                  - Azure file - IaaS - it is a storage service
+                  -Azure files - Paas - It provides managed file shares in the cloud that are accessible via the Server Message Block (SMB) protocol. This makes it easier for applications to share files across multiple virtual machines or cloud instances
 -> PaaS - You need to focus on application development rather than configuration and management of servers.
             - Azure SQL data base - PaaS
-            - DNS server that runs on virtual machine - PaaS
+            - DNS server that runs on virtual machine - IaaS
             - Azure Cosmos DB - PaaS
             - Azure Backup - PaaS
 
             - microsoft 365 - SaaS
             - Microsoft Intune - SaaS
+-> Availability zone - is a high- availability offering that protects your application from datacenter failure. availability zones are unique physical locations with in an 'azure region'
 
 -> Characteristics of ARM - Idempotency, Declarative, Source control
 -> Azure Blue Prints - ARM Template
@@ -78,7 +80,8 @@
 -> Firewall - could grant or deny access based on the originating IP address
 -> site-to-site VPN - used to set the communication between an on-premises VPN device and an azure VPn gate way through an encrypted tunnel over the internet.
 -> point-to-site(P2S) VPN - lets you create a secure connection to your virtual network from ana individual client computer
--> 
+-> Outbound data transfer is charger normally whereas inbound data transfer is free
+
 
 
 
@@ -149,7 +152,10 @@ for securely storing and acccessing secrets. API keys, passwords, certificates a
 -> Azure Synapse Analytics - is a data analytics platfoorm that combines data integration, enterprise data warehousing, and big data analytics.
 -> Azure Database for PostgreSQL - is a relational database service based on the open-source postgres database engine. it is not used to build a database warehouse.
 -> Edge computing - allows customers to run VMs, Containers and data services at edge locations.
+
+-> Cost management - we can use cost management to view costs associated with to the management groups.
 -> 
+
 
 
 
